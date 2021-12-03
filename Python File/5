@@ -1,0 +1,13 @@
+import filecmp
+
+f1 = input("enter a first ")
+
+f2 = input("enter a second ")
+
+result = filecmp.cmp(f1,f2)
+
+print(result)
+
+result = filecmp.cmp(f1,f2,shallow=false)
+
+print(result)
