@@ -1,0 +1,8 @@
+import numpy as np
+arr=np.array(([2,7],[2,5],[2,8]))
+brr=np.array(([2,5],[5,7],[5,6]))
+print("a=",arr)
+print("b=",brr)
+print("sum of matrices\n",np.add(arr,brr))
+print("subtract of matrices\n",np.subtract(arr,brr))
+print("division of matrices\n",np.divide(arr,brr))
